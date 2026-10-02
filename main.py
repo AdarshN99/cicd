@@ -1,10 +1,7 @@
-from flask import Flask
+from fastapi import FastAPI
 
-app = Flask(__name__)
+app = FastAPI()
 
-@app.route("/")
-def hello():
-    return "Hello from CI/CD Pipeline..."
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5050)
+@app.get("/")
+def root():
+    return {"message": "Hello World"}
