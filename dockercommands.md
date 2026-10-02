@@ -30,3 +30,5 @@ docker buildx build \
 ``git commit -m "message"``, <br> 
 ``git remote add origin git@github.com:AdarshN99/{repo}.git``, <br>
 ``git push --set-upstream origin main/master``
+
+``git config --global --edit  ``
