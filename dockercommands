@@ -1,5 +1,0 @@
-docker buildx build \
-  --platform linux/amd64 \
-  -t adarsh9n/my-app:latest \
-  --push \
-  .
